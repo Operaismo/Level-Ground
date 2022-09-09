@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-
+  font-family: "Oswald", sans-serif;
 }
 
 
@@ -30,7 +30,7 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  background-color: rgba(0,0,0,0.46);
 }
 
 footer {
