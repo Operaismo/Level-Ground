@@ -45,6 +45,11 @@ header {
   padding-bottom: 5em;
 }
 
+nav {
+  overflow: hidden;
+  margin: auto auto;
+}
+
 h1 {
   font-size: 3.5em;
 }
@@ -70,7 +75,7 @@ a {
   height: 100%;
   max-width: 40px;
   max-height: 40px;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 .header-links {
@@ -101,7 +106,8 @@ video {
   width: 100%;
   overflow: hidden;
 }
-.visit-col-one, .visit-col-two{
+.visit-col-one,
+.visit-col-two {
   width: 50%;
   float: left;
   background-color: gray;
@@ -142,31 +148,74 @@ video {
 /* FOOTER */
 
 footer {
-  background-color: #414345;
-}
-
-/* .footer-links {
-  width: 20%;
+  background-color: #1b354f;
+  width: 100%;
+  padding: 4em 4em;
   float: left;
 }
 
-.footer-contact {
-  width: 20%;
-  float: right;
-} */
-
-footer span, h4 {
+i {
   color: white;
+  font-size: 2em;
+  padding: .25em .25em .25em .25em;
+}
+
+.footer-text {
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+}
+
+.footer-links {
+  float: left;
+  margin-left: 5em;
+  text-align: left;
+  display: block;
+}
+
+.footer-contact {
+  float: right;
+  margin-right: 5em;
+  text-align: right;
+  display: block;
+}
+
+footer small,
+h4,
+h5 {
+  color: white;
+}
+
+/* FOOTER PART 2: LEGALESSE */
+.legalese-logo {
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+}
+
+.legalese {
+  float: left;
+  font-size: 0.8em;
+  width: 100%;
+  clear: both;
 }
 
 .footer-logo {
   float: right;
+  display: block;
   overflow: hidden;
+  clear: both;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+hr {
+  overflow: visible;
+  height: 0;
+  box-sizing: content-box;
+}
 
 .hr-invis {
   display: none;
