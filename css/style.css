@@ -142,7 +142,26 @@ video {
 /* FOOTER */
 
 footer {
-  background-color: navy;
+  background-color: #414345;
+}
+
+/* .footer-links {
+  width: 20%;
+  float: left;
+}
+
+.footer-contact {
+  width: 20%;
+  float: right;
+} */
+
+footer span, h4 {
+  color: white;
+}
+
+.footer-logo {
+  float: right;
+  overflow: hidden;
 }
 
 /******************************************
